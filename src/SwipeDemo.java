@@ -20,7 +20,7 @@ public class SwipeDemo extends DesireCapability {
 		driver.findElementByXPath("\\android.widget.TextView(@text='Date Widgets')").click();
 		driver.findElementByAndroidUIAutomator("text(\"2. Inline\")").click();
 		
-		//click on 9 with regular expression * with xpath
+		//click on 9 with regular expression * with xpaths
 		driver.findElementByXPath("//*[content-desc='9']").click();
 		
 		//swipe from 15 to 45 i.e. 180 degrees with touch actions class
